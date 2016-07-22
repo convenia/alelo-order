@@ -1,6 +1,6 @@
 <?php
 
-namespace Edbizarro\Alelo\Fields;
+namespace Convenia\AleloOrder\Fields;
 
 use Convenia\AleloOrder\Interfaces\FieldInterface;
 use Stringy\Stringy as S;

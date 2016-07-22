@@ -2,8 +2,8 @@
 
 namespace Convenia\AleloOrder\Registries;
 
-use Edbizarro\Alelo\Fields\Formats\FieldC;
-use Edbizarro\Alelo\Fields\Formats\FieldN;
+use Convenia\AleloOrder\Fields\Formats\FieldC;
+use Convenia\AleloOrder\Fields\Formats\FieldN;
 
 /**
  * Class TraillerRegistry.

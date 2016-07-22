@@ -2,7 +2,7 @@
 
 namespace Convenia\AleloOrder\Registries;
 
-use Edbizarro\Alelo\Fields\Field;
+use Convenia\AleloOrder\Fields\Field;
 use Convenia\AleloOrder\Exceptions\FieldNotExistsException;
 use Convenia\AleloOrder\Exceptions\RegistryTooLongException;
 use Convenia\AleloOrder\Exceptions\RegistryTooShortException;

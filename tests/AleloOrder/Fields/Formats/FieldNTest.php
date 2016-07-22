@@ -2,7 +2,7 @@
 
 namespace Convenia\AleloOrder\Tests\Fields\Formats;
 
-use Edbizarro\Alelo\Fields\Formats\FieldN;
+use Convenia\AleloOrder\Fields\Formats\FieldN;
 use Convenia\AleloOrder\Tests\BaseTest;
 
 /**

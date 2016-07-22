@@ -1,8 +1,8 @@
 <?php
 
-namespace Edbizarro\Alelo\Fields\Formats;
+namespace Convenia\AleloOrder\Fields\Formats;
 
-use Edbizarro\Alelo\Fields\Field;
+use Convenia\AleloOrder\Fields\Field;
 
 /**
  * Class FieldN.
