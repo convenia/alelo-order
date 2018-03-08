@@ -11,7 +11,7 @@ use Convenia\AleloOrder\Registries\HeaderRegistry;
 class HeaderRegistryTest extends BaseTest
 {
     /**
-     * @expectedException \Convenia\AleloOrder\Exceptions\FieldNotExistsException
+     * @expectedException Convenia\PayrollFileReader\Exceptions\FieldNotExistsException
      */
     public function test_field_not_exists()
     {

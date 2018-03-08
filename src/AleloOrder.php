@@ -12,7 +12,7 @@ use Stringy\Stringy;
 /**
  * Class AleloOrder.
  */
-class AleloOrder implements AleloOrderInterface
+class AleloOrder
 {
     /**
      * @var Stringy
@@ -169,7 +169,7 @@ class AleloOrder implements AleloOrderInterface
 
         /** @var EmployeeRegistry $employee */
         foreach ($this->getAllEmployees() as $employee) {
-            $orderTotal += $employee->getField('monthValue')->getValue();
+            $orderTotal += $employee->getField('monthValue')->getValue('upper');
         }
 
         return $orderTotal;

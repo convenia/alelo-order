@@ -2,13 +2,14 @@
 
 namespace Convenia\AleloOrder\Registries;
 
-use Convenia\AleloOrder\Fields\Formats\FieldN;
-use Convenia\AleloOrder\Fields\Formats\FieldC;
+use Convenia\PayrollFileReader\Fields\Formats\FieldC;
+use Convenia\PayrollFileReader\Fields\Formats\FieldN;
+use Convenia\PayrollFileReader\Patterns\PatternBase;
 
 /**
  * Class EmployeeRegistry.
  */
-class EmployeeRegistry extends Registry
+class EmployeeRegistry extends PatternBase
 {
     /**
      * @var array
